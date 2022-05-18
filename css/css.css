@@ -1,0 +1,106 @@
+html{
+    background-image: url("https://blog.caixa-enginyers.com/wp-content/uploads/2017/08/BAT-Ingenieros-Fondos-1200x800.jpg");
+    background-size: cover;
+    font-family: 'Quicksand', sans-serif;
+}
+.iniciaformu{
+    width: 400px;
+    height: 500px;
+    background-color: rgb(95, 113, 97, 0.5);
+    margin-top: 2.5rem;
+    margin-left: 2rem;
+    border-radius: 30px;
+}
+h2{
+    align-self: center;
+    margin-top: 3rem;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+   
+}
+.user{
+    align-self: center;
+    margin-top: 1.5rem;
+}
+.user > input{
+    border-radius: 15px;
+    border: none;
+    width: 270px;
+    height: 35px;
+}
+.password{
+    align-self: center;
+    margin-top: 1rem;
+}
+.password > input{
+    border-radius: 15px;
+    border: none;
+    width: 270px;
+    height: 35px;
+}
+.ingreso{
+    width: 150px;
+    height: 35px;
+    margin: 1.5rem;
+    color: black;
+    align-self: center;
+    font-family: 'Quicksand', sans-serif;
+    padding: 10px 10px 10px 10px;
+    font-size: 0.938 rem;
+    text-decoration: none;
+    border-radius: 15px;
+    border: none;
+}
+.registro{
+    width: 150px;
+    height: 35px;
+    color: black;
+    align-self: center;
+    font-family: 'Quicksand', sans-serif;
+    padding: 10px 10px 10px 10px;
+    font-size: 0.938 rem;
+    text-decoration: none;
+    border-radius: 15px;
+    border: none;
+}
+.registro:hover{
+    background-color: #FFAD60;
+    transition: 0.5s;
+}
+.ingreso:hover{
+    background-color: #FFAD60;
+    transition: 0.5s;
+}
+.logo{
+    width: 200px;
+    height: 100px;
+    align-self: center;
+    margin-top: 3.5rem;
+}
+.block{
+    display: none !important;
+}
+.activar-flex{
+    display: flex !important;
+}
+.desactivar{
+    display: none;
+}
+.section_login{
+    display: none;
+}
+.section_administrador{
+    width: 100%;
+    height: 6rem;
+    display: block;
+    background-color: aqua;
+}
+nav{
+    width: 100%;
+    height: 6rem;
+    background-color: orange;
+}
